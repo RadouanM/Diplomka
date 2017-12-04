@@ -207,4 +207,4 @@ else:
 
 print("verze 5 21:15")
 print("\nSkript úspěšně proběhl, ukončuji ...")
-exit()
+exit(0)
