@@ -1,5 +1,5 @@
 
-
+import os
 from winreg import *
 
 RegHKLM = ConnectRegistry(None, HKEY_LOCAL_MACHINE)
@@ -205,6 +205,10 @@ if symantec_nalezen==False:
 else:
     print()
 
-print("verze 5 21:15")
+print("\nStatus nástroje BitLocker:\n")
+print(os.popen(r'C:\Windows\SysNative\manage-bde.exe -status c:').read())
+
+print("verze skriptu 7.2300")
+
 print("\nSkript úspěšně proběhl, ukončuji ...")
-exit(0)
+exit()
