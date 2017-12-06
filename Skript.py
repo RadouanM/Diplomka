@@ -1,4 +1,10 @@
 
+"""Detekce.py: Skript detekující nainstalované šifrovací nástroje."""
+
+__author__      = "Radouan Mohamed"
+__license__ = "Apache Licence 2.0"
+__version__ = "1.0"
+
 import os
 from winreg import *
 
