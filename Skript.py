@@ -216,5 +216,6 @@ print(os.popen(r'C:\Windows\SysNative\manage-bde.exe -status c:').read())
 
 print("verze skriptu 7.2300")
 
-print("\nSkript úspěšně proběhl, ukončuji ...")
+print("\nSkript úspěšně proběhl, pro ukončení stiskněte Enter")
+input()
 exit()
